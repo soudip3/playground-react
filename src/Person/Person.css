@@ -1,0 +1,22 @@
+.Person{
+    border: 1px solid #eee;
+    box-shadow : 0 1px 1px #ccc;
+    padding: 16px;
+    margin: 16px auto;
+    text-align: center;
+    width : 30%;
+    background-color : #fcf4e3;
+}
+
+@media screen and (min-width : 500px)  {
+    .Person{
+        width : 450px;
+    }
+}
+
+.Person:hover{
+    box-shadow : 0 6px 6px #ccc;
+    width :31%;
+}
+    
+    
